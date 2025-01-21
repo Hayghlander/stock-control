@@ -1,0 +1,3 @@
+[submodule "stock-api"]
+	path = stock-api
+	url = https://url-do-repositorio-do-submodulo
