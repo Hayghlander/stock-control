@@ -13,6 +13,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './modules/home/home.component';
 import { RippleModule } from "primeng/ripple";
+import { CookieService } from 'ngx-cookie-service';
+import { MessageService } from 'primeng/api';
 @NgModule({
   declarations: [AppComponent, HomeComponent],
   imports: [
@@ -28,7 +30,7 @@ import { RippleModule } from "primeng/ripple";
     ToastModule,
     RippleModule
 ],
-  providers: [],
+  providers: [CookieService, MessageService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
