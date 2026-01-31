@@ -15,6 +15,7 @@ import { ToastModule } from 'primeng/toast';
 import { MessageService } from 'primeng/api';
 import { CookieService } from 'ngx-cookie-service';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { ProductsHomeComponent } from '../products/page/products-home/products-home.component';
 
 @NgModule({
   declarations: [DashboardHomeComponent],
