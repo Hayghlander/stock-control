@@ -1,16 +1,16 @@
 # Stock Control
 
-Aplicação de previsão do tempo desenvolvida em Angular para consulta de dados meteorológicos em tempo real através de APIs REST.
+Descrição: Sistema completo de gerenciamento de estoque para controle de entrada e saída de produtos, com visualização de dados através de dashboards dinâmicos.
 
 Destaques Técnicos:
 
-Framework: Angular (v15+).
+Frontend: Angular, PrimeNG e Chart.js (Gráficos).
 
-Integração: Consumo da API OpenWeatherMap via HttpClient.
+Backend: Node.js com API RESTful.
 
-Recursos: Uso de Rotas, Formulários Reativos e Services para gerenciamento de dados.
+Persistência: Prisma ORM com banco de dados SQLite.
 
-Estilização: Layout responsivo focado em UX.
+Funcionalidades: CRUD completo de produtos, integração real-time com o banco e dashboard de status de estoque.
 
 # Home
 
