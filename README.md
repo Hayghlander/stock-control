@@ -1,14 +1,21 @@
-Stock Control (Full Stack)
-Link do GitHub: [Seu Link Aqui]
+# Stock Control
 
-Descrição: Sistema completo de gerenciamento de estoque para controle de entrada e saída de produtos, com visualização de dados através de dashboards dinâmicos.
+Aplicação de previsão do tempo desenvolvida em Angular para consulta de dados meteorológicos em tempo real através de APIs REST.
 
 Destaques Técnicos:
 
-Frontend: Angular, PrimeNG e Chart.js (Gráficos).
+Framework: Angular (v15+).
 
-Backend: Node.js com API RESTful.
+Integração: Consumo da API OpenWeatherMap via HttpClient.
 
-Persistência: Prisma ORM com banco de dados SQLite.
+Recursos: Uso de Rotas, Formulários Reativos e Services para gerenciamento de dados.
 
-Funcionalidades: CRUD completo de produtos, integração real-time com o banco e dashboard de status de estoque.
+Estilização: Layout responsivo focado em UX.
+
+# Home
+
+# Autor
+
+Hayghlander Marques de Jesus Pereira
+
+https://www.linkedin.com/in/hayghlandermarques
