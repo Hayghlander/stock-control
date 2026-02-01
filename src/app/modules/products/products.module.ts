@@ -7,14 +7,14 @@ import { RouterModule } from '@angular/router';
 import { CardModule } from 'primeng/card';
 import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
-import { InputMaskModule } from 'primeng/InputMask';
-import { InputSwitchModule } from 'primeng/InputSwitch';
+import { InputMaskModule } from 'primeng/inputmask';
+import { InputSwitchModule } from 'primeng/inputswitch';
 import { InputTextModule } from 'primeng/inputtext';
 import { InputTextareaModule} from 'primeng/inputtextarea';
 import { InputNumberModule } from 'primeng/inputnumber';
 import { DynamicDialogModule, DialogService  } from 'primeng/dynamicdialog';
 import { DropdownModule } from 'primeng/dropdown';
-import { ConfirmDialogModule } from 'primeng/ConfirmDialog';
+import { ConfirmDialogModule } from 'primeng/confirmdialog';
 import { TooltipModule } from 'primeng/tooltip';
 import { ConfirmationService } from 'primeng/api';
 
