@@ -1,8 +1,10 @@
+import { Request } from 'express';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { CookieService } from 'ngx-cookie-service';
 import { Observable, map } from 'rxjs';
 import { CreateProductRequest } from 'src/app/models/interfaces/products/request/CreateProductRequest';
+import { EditProductRequest } from 'src/app/models/interfaces/products/request/EditProductRequest';
 import { CreateProductResponse } from 'src/app/models/interfaces/products/request/response/CreateProductReponse';
 import { DeleteProductResponse } from 'src/app/models/interfaces/products/request/response/DeleteProductResponse';
 import { GetAllProductsResponse } from 'src/app/models/interfaces/products/request/response/GetAllProductsResponse';
@@ -45,12 +47,21 @@ export class ProductsService {
       },
     );
   }
-  createProduct(requestDatas: CreateProductRequest
+  createProduct(
+    requestDatas: CreateProductRequest
   ): Observable<CreateProductResponse> {
     return this.http.post<CreateProductResponse>(
-    `${this.API_URL}/product`,
+      `${this.API_URL}/product`,
+      requestDatas,
+      this.httpOptions
+    );
+  }
+
+  editProduct(requestDatas: EditProductRequest): Observable<void> {
+    return this.http.put<void>(
+    `${this.API_URL}/product/edit`,
     requestDatas,
     this.httpOptions
-    );
+  );
   }
 }
